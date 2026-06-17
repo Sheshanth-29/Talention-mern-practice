@@ -24,7 +24,7 @@ app.use(
 
 app.use(express.json());
 
-app.use("/api/atm", require("./routes/atmRoutes"));
+app.use("/api/atm", require("./routes/atmroutes"));
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
